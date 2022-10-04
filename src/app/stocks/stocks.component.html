@@ -1,0 +1,32 @@
+<div class="backgroundImage" [ngStyle]="{backgroundImage:'url(./assets/1.png)'}">
+  <!-- <img src="./assets/1.png" class="backgroundImage"> -->
+  <div class="container " style="background-color:   silver;" >
+    <div class="card">
+
+      <h2>STOCK LIST</h2>
+      <table class="table table-striped" >
+    <thead>
+      <tr>
+      <th>Stock Name</th>
+      <th>Stock Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stock of stocks">
+      <td>{{stock.name}}</td>
+      <td>{{stock.price}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</div>
+<footer class="footer">
+  <div class="container con">
+    <span>All Rights Reserved 2022 @Divyansh</span>
+  </div>
+</footer>
+<!-- <img src="./assets/1.png"> -->
+<!-- <div  [ngStyle]="{backgroundImage:'url(./assets/1.png)'}" >
+</div> -->
+</div>

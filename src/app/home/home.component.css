@@ -1,0 +1,16 @@
+.banner{
+	background-color: black;
+
+}
+.banner-video{
+	width: 100%;
+
+}
+.footer{
+    position:relative;
+    bottom: 0;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color:white ;
+}
